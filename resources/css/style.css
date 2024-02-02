@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #3E482A;
+    font-family: "Gamja Flower", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #2D2920;
+}
+
+
+#game {
+    background-color: rgb(251, 247, 229);
+    width: 80%;
+    max-width: 500px;
+    padding: 20px;
+}
+
+#stats {
+    text-align: center;
+    padding: 5px;
+
+}
+
+.stat-one {
+    padding: 10px;
+    border-bottom: 2px #3E482A solid;
+}
+
+.stat-two {
+    padding: 10px;
+}
+
+#controls {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 0;
+    padding: 20px;
+}
+
+#text {
+    border: 2px #3E482A solid;
+    padding: 5px;
+    text-align: center;
+}
+
+
+#monsterStats {
+    display: none;
+    text-align: center;
+    background-color: #51100a;
+    color: white;
+    padding: 30px;
+}
+
+button {
+    border: 0;
+    border-radius: 10px;
+    background-color: #2D2920;
+    color: cornsilk;
+    height: 50px;
+    width: 100px;
+    font-family: "Gamja Flower", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition: all 0.4s ease 0s;
+}
+
+button:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px #3E482A;
+    -moz-box-shadow: 0px 5px 40px -10px #3E482A;
+    transition: all 0.4s ease 0s;
+}
